@@ -4,7 +4,7 @@ from selenium.webdriver.chrome import options
 from selenium.webdriver.firefox import firefox_profile
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.options import Options
-
+import time
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default='chrome',
