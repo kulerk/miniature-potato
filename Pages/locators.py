@@ -22,3 +22,7 @@ class ProductPageLocators(BasePageLocators):
     PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
     ITEM_NAME = (By.CSS_SELECTOR, "div.product_main h1")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
+
+class BasketPageLocators(BasePageLocators):
+    BASKET_ITEMS = (By.CSS_SELECTOR, ".basket-items")
+    EMPTY_BASKET_TEXT = (By.CSS_SELECTOR, "#content_inner p")
