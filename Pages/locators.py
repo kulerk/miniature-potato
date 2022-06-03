@@ -1,4 +1,3 @@
-from sre_constants import SUCCESS
 from selenium.webdriver.common.by import By
 
 
